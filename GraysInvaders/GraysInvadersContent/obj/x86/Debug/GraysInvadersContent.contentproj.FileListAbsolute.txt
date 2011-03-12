@@ -1,0 +1,3 @@
+C:\Users\Horuhe\Documents\My Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvadersContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvadersContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvadersContent\obj\x86\Debug\ResolveAssemblyReference.cache
