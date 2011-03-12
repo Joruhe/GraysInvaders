@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Invasors\invasor_sheet.png</Source>
+      <Name>Invasors\invasor_sheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Invasors\invasor_sheet.xnb</Output>
+      <Time>2011-03-12T07:24:24.1239052+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Shoot\shoot_sheet.png</Source>
+      <Name>Shoot\shoot_sheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Shoot\shoot_sheet.xnb</Output>
+      <Time>2011-03-12T07:24:24.1279055+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\4278190080.png</Source>
+      <Name>Barrier\4278190080</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\4278190080.xnb</Output>
+      <Time>2011-03-12T07:24:24.1109045+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\4278255616.png</Source>
+      <Name>Barrier\4278255616</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\4278255616.xnb</Output>
+      <Time>2011-03-12T07:24:24.1119046+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\4278321152.png</Source>
+      <Name>Barrier\4278321152</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\4278321152.xnb</Output>
+      <Time>2011-03-12T07:24:24.1129046+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\4278386688.png</Source>
+      <Name>Barrier\4278386688</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\4278386688.xnb</Output>
+      <Time>2011-03-12T07:24:24.1139047+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\4278452224.png</Source>
+      <Name>Barrier\4278452224</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\4278452224.xnb</Output>
+      <Time>2011-03-12T07:24:24.1139047+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\4278517760.png</Source>
+      <Name>Barrier\4278517760</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\4278517760.xnb</Output>
+      <Time>2011-03-12T07:24:24.1149047+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\4278583296.png</Source>
+      <Name>Barrier\4278583296</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\4278583296.xnb</Output>
+      <Time>2011-03-12T07:24:24.1149047+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\4278648832.png</Source>
+      <Name>Barrier\4278648832</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\4278648832.xnb</Output>
+      <Time>2011-03-12T07:24:24.1159048+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\4278714368.png</Source>
+      <Name>Barrier\4278714368</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\4278714368.xnb</Output>
+      <Time>2011-03-12T07:24:24.1159048+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\barrier_09.png</Source>
+      <Name>Barrier\barrier_09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\barrier_09.xnb</Output>
+      <Time>2011-03-12T07:24:24.118905+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\barrier_10.png</Source>
+      <Name>Barrier\barrier_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\barrier_10.xnb</Output>
+      <Time>2011-03-12T07:24:24.118905+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\barrier_11.png</Source>
+      <Name>Barrier\barrier_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\barrier_11.xnb</Output>
+      <Time>2011-03-12T07:24:24.119905+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\barrier_12.png</Source>
+      <Name>Barrier\barrier_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\barrier_12.xnb</Output>
+      <Time>2011-03-12T07:24:24.119905+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\barrier_13.png</Source>
+      <Name>Barrier\barrier_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\barrier_13.xnb</Output>
+      <Time>2011-03-12T07:24:24.1209051+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\barrier_14.png</Source>
+      <Name>Barrier\barrier_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\barrier_14.xnb</Output>
+      <Time>2011-03-12T07:24:24.1219051+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\BarrierMap.png</Source>
+      <Name>Barrier\BarrierMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\BarrierMap.xnb</Output>
+      <Time>2011-03-12T07:24:24.1169048+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tank\tank.png</Source>
+      <Name>Tank\tank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Tank\tank.xnb</Output>
+      <Time>2011-03-12T07:24:24.1299056+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\BarrierMap43.png</Source>
+      <Name>Barrier\BarrierMap43</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\BarrierMap43.xnb</Output>
+      <Time>2011-03-12T07:24:24.1179049+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Barrier\BarrierMap54.png</Source>
+      <Name>Barrier\BarrierMap54</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Barrier\BarrierMap54.xnb</Output>
+      <Time>2011-03-12T07:24:24.1179049+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tank\tank43.png</Source>
+      <Name>Tank\tank43</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Tank\tank43.xnb</Output>
+      <Time>2011-03-12T07:24:24.1329058+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tank\tank_sheet.png</Source>
+      <Name>Tank\tank_sheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Tank\tank_sheet.xnb</Output>
+      <Time>2011-03-12T07:24:24.1339058+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ufo\ufo_sheet.png</Source>
+      <Name>Ufo\ufo_sheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Ufo\ufo_sheet.xnb</Output>
+      <Time>2011-03-12T07:24:24.1469066+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pentagram\pentagram_sheet.png</Source>
+      <Name>Pentagram\pentagram_sheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Pentagram\pentagram_sheet.xnb</Output>
+      <Time>2011-03-12T07:24:24.1269054+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tempo\tempo.png</Source>
+      <Name>Tempo\tempo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\Tempo\tempo.xnb</Output>
+      <Time>2011-03-12T07:24:24.1359059+01:00</Time>
+    </Item>
+    <Item>
+      <Source>backdrop.jpg</Source>
+      <Name>backdrop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\backdrop.xnb</Output>
+      <Time>2011-03-12T16:41:58.7395548+01:00</Time>
+    </Item>
+    <Item>
+      <Source>planet.jpg</Source>
+      <Name>planet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\planet.xnb</Output>
+      <Time>2011-03-12T16:42:13.4443959+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvadersContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvadersContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-02-18T04:30:04.6090772+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
