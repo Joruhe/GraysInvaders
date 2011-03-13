@@ -27,6 +27,9 @@ namespace GraysInvaders
         /// </summary>
         protected GamePadState oldGamePadState;
 
+        // Audio stuff
+        private SoundEffect pum;
+
         #region SHOOT
         private Texture2D shoot;
         Shoot shooter;
@@ -133,6 +136,14 @@ namespace GraysInvaders
             }*/
         }
 
+        protected override void LoadContent()
+        {
+
+            // Load audio elements
+            pum = Game.Content.Load<SoundEffect>(@"music\LASER");
+            base.LoadContent();
+        }
+
         /// <summary>
         /// Update the Tank position
         /// </summary>
@@ -175,6 +186,7 @@ namespace GraysInvaders
                         shooter = new Shoot(Game, ref shoot,
                             new Vector2(position.X + frameSize.X / 2, position.Y - SHOOTSIZE), 1);
                         Game.Components.Add(shooter);
+                        pum.Play(.5f,0f,0f);
                         //}
                         #endregion
 

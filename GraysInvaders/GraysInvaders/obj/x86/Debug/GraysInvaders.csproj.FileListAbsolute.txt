@@ -89,3 +89,14 @@ C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInv
 C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\obj\x86\Debug\GraysInvaders.pdb
 C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\backdrop.xnb
 C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\trunk\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\planet.xnb
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\backdrop.xnb
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\planet.xnb
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\rush.xnb
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\rush.wma
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\robotz.xnb
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\fuckmove.xnb
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\duck1.xnb
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\LASER.xnb
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\pig.xnb
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\HOU.xnb
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\HOU1.xnb

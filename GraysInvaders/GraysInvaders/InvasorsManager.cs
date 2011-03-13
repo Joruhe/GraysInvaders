@@ -39,6 +39,10 @@ namespace GraysInvaders
         private int difficult;
         #endregion
 
+
+        // Audio stuff
+        private SoundEffect move;
+
         public InvasorsManager(Game game, ref Texture2D texture, string difficult)
             : base(game)
         {
@@ -57,6 +61,8 @@ namespace GraysInvaders
         {
             // TODO: Add your initialization code here
 
+            // Load audio elements
+            move = Game.Content.Load<SoundEffect>(@"music\hou1");
             base.Initialize();
         }
 
@@ -95,6 +101,7 @@ namespace GraysInvaders
             last = SCREENWIDTH;
             first = SCREENTHEND;
             float down = 0;
+            float timeForSoundMove = 1;
 
             #region LAST POSITION
             foreach (GameComponent gc in Game.Components)
@@ -110,9 +117,16 @@ namespace GraysInvaders
                         {
                             down = (((Invasor)gc).position.Y);
                         }
+
+                        timeForSoundMove = ((Invasor)gc).timeSinceLastFrame;
                     }
                 }
             #endregion
+
+            if (timeForSoundMove == 0)
+            {
+                move.Play(.5f,0f,0f);
+            }
 
             #region ASIGNATION LAST POSITION
             foreach (GameComponent gc in Game.Components)
@@ -123,6 +137,7 @@ namespace GraysInvaders
                     ((Invasor)gc).downInvasor = down;
                 }
             #endregion
+
 
             base.Update(gameTime);
         }

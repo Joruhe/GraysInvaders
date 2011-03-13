@@ -20,6 +20,10 @@ namespace GraysInvaders.Sprite
         #region VARIABLES
         protected Rectangle screenBounds;
         Random random;
+
+        // Audio stuff
+        private SoundEffect soundEffect;
+        private SoundEffectInstance moveEffect;
         #endregion
 
         #region STATES
@@ -110,6 +114,9 @@ namespace GraysInvaders.Sprite
         {
             // TODO: Add your initialization code here
 
+            // Load audio elements
+            soundEffect = Game.Content.Load<SoundEffect>(@"music\fuckmove");
+            moveEffect = soundEffect.CreateInstance();
             base.Initialize();
         }
 
@@ -124,17 +131,15 @@ namespace GraysInvaders.Sprite
             if (enable)
             {
                 //random = new Random((int)(DateTime.Now.Ticks));//this.GetHashCode());
-                int count = 0;
-
-                foreach (GameComponent gc in Game.Components)
-                    if (gc is Invasor)
-                        count++;
+                
                 timeSinceLastMove += gameTime.ElapsedGameTime.Milliseconds;
                 if(timeSinceLastMove > timeMove)
                 {
                     timeSinceLastMove = 0;
-                    if (this.random.Next(0, 100) < 1)
+                    if (this.random.Next(0, 100) < 100)
                     {
+                        if (!go)
+                            moveEffect.Play();
                         go = true;
                         visible = true;
                     }
@@ -154,6 +159,7 @@ namespace GraysInvaders.Sprite
                     else
                     {
                         position.X -= 5;
+
                         if (position.X < 0 - frameSize.X)
                         {
                             go = false;
@@ -196,6 +202,7 @@ namespace GraysInvaders.Sprite
         {
             if (!ufo.die)
             {
+                ufo.moveEffect.Stop();
                 Ufo ufoDie = new Ufo(Game, ufo);
                 Game.Components.Add(ufoDie);
             }

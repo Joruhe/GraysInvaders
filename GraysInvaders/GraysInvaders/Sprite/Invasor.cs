@@ -28,6 +28,9 @@ namespace GraysInvaders
         /// </summary>
         Shoot shooter;
         #endregion
+
+        // Audio stuff
+        private SoundEffect pum;
         #endregion
 
         #region STATES
@@ -60,7 +63,7 @@ namespace GraysInvaders
         /// <summary>
         /// tiempo hasta el siguiente movimiento
         /// </summary>
-        protected int timeSinceLastMove = 0;
+        public int timeSinceLastMove = 0;
         /// <summary>
         /// milisegons necsario para el siguiente movimiento
         /// </summary>
@@ -158,6 +161,8 @@ namespace GraysInvaders
         {
             // TODO: Add your initialization code here
 
+            // Load audio elements
+            pum = Game.Content.Load<SoundEffect>(@"music\duck1");
             base.Initialize();
         }
 
@@ -172,7 +177,7 @@ namespace GraysInvaders
             {
 
                 #region BARRIER INTERSECTION
-                if (position.Y > 720 - 168 - frameSize.Y)
+                if (position.Y > 720 - frameSize.Y)
                 {
                     enable = false;
                     Game.Exit();
@@ -205,7 +210,6 @@ namespace GraysInvaders
                 if (timeSinceLastMove > timeToMove)
                 {
                     timeSinceLastMove = 0;
-
                     position.X += speed.X;
                 }
 
@@ -229,6 +233,8 @@ namespace GraysInvaders
                                     new Vector2(position.X + frameSize.X / 2,
                                         position.Y + SHOOTSIZE + frameSize.Y), -1);
                                 Game.Components.Add(shooter);
+
+                                pum.Play();
                             }
                         }
                     }

@@ -31,6 +31,11 @@ namespace GraysInvaders
             insane = 10
         }
 
+        // Audio stuff
+        private SoundEffect explosion;
+        private Song backMusic;
+        private Song backMusic2;
+
         Color colorin;
 
         #region GAMECOMPONENTS
@@ -197,6 +202,15 @@ namespace GraysInvaders
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(this.GraphicsDevice);
             Services.AddService(typeof(SpriteBatch), spriteBatch);
+
+            // Load audio elements
+            explosion = Content.Load<SoundEffect>(@"music\robotz");
+            backMusic = Content.Load<Song>(@"music\rush");
+            //backMusic2 = Content.Load<Song>(@"music\w");
+
+            // Play the background music
+            //MediaPlayer.Play(backMusic);
+            //MediaPlayer.Play(backMusic2);
 
             //Services.AddService(typeof(Vector2), scale);
 
@@ -383,7 +397,9 @@ spriteBatch.Begin(SpriteSortMode.Immediate, null, null, null, null, null, transf
             {
                 if(gc is Shoot)
                     if (((Shoot)gc).die)
+                    {
                         listCollShoot.Add((Shoot)gc);
+                    }
                     else
                         listShoot.Add((Shoot)gc);
                 if (gc is Invasor)
@@ -431,6 +447,7 @@ spriteBatch.Begin(SpriteSortMode.Immediate, null, null, null, null, null, transf
                             ((Invasor)gc).shooted = true;
                             listCollInvasor.Add((Invasor)gc);
                             listCollShoot.Add(sh);
+                            explosion.Play(.5f,0f,0f);
                         }
                         if (!((Invasor)gc).enable && ((Invasor)gc).die)
                         {
