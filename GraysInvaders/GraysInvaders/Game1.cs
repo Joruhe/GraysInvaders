@@ -32,9 +32,9 @@ namespace GraysInvaders
         }
 
         // Audio stuff
-        private SoundEffect explosion;
+        private SoundEffect SoundEffectExplosion;
+        private SoundEffectInstance explosionEffect;
         private Song backMusic;
-        private Song backMusic2;
 
         Color colorin;
 
@@ -204,7 +204,9 @@ namespace GraysInvaders
             Services.AddService(typeof(SpriteBatch), spriteBatch);
 
             // Load audio elements
-            explosion = Content.Load<SoundEffect>(@"music\robotz");
+            SoundEffectExplosion = Content.Load<SoundEffect>(@"music\robotz");
+            explosionEffect = SoundEffectExplosion.CreateInstance();
+
             backMusic = Content.Load<Song>(@"music\rush");
             //backMusic2 = Content.Load<Song>(@"music\w");
 
@@ -447,7 +449,7 @@ spriteBatch.Begin(SpriteSortMode.Immediate, null, null, null, null, null, transf
                             ((Invasor)gc).shooted = true;
                             listCollInvasor.Add((Invasor)gc);
                             listCollShoot.Add(sh);
-                            explosion.Play(.5f,0f,0f);
+                            explosionEffect.Play();
                         }
                         if (!((Invasor)gc).enable && ((Invasor)gc).die)
                         {

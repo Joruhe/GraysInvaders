@@ -22,7 +22,7 @@ namespace GraysInvaders.Sprite
         Random random;
 
         // Audio stuff
-        private SoundEffect soundEffect;
+        private SoundEffect soundEffectMove;
         private SoundEffectInstance moveEffect;
         #endregion
 
@@ -115,8 +115,8 @@ namespace GraysInvaders.Sprite
             // TODO: Add your initialization code here
 
             // Load audio elements
-            soundEffect = Game.Content.Load<SoundEffect>(@"music\fuckmove");
-            moveEffect = soundEffect.CreateInstance();
+            soundEffectMove = Game.Content.Load<SoundEffect>(@"music\fuckmove");
+            moveEffect = soundEffectMove.CreateInstance();
             base.Initialize();
         }
 
@@ -136,7 +136,7 @@ namespace GraysInvaders.Sprite
                 if(timeSinceLastMove > timeMove)
                 {
                     timeSinceLastMove = 0;
-                    if (this.random.Next(0, 100) < 100)
+                    if (this.random.Next(0, 100) < 1)
                     {
                         if (!go)
                             moveEffect.Play();

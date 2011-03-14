@@ -28,7 +28,8 @@ namespace GraysInvaders
         protected GamePadState oldGamePadState;
 
         // Audio stuff
-        private SoundEffect pum;
+        private SoundEffectInstance shootEffect;
+        private SoundEffect SoundEffectShoot;
 
         #region SHOOT
         private Texture2D shoot;
@@ -140,7 +141,8 @@ namespace GraysInvaders
         {
 
             // Load audio elements
-            pum = Game.Content.Load<SoundEffect>(@"music\LASER");
+            SoundEffectShoot = Game.Content.Load<SoundEffect>(@"music\LASER");
+            shootEffect = SoundEffectShoot.CreateInstance();
             base.LoadContent();
         }
 
@@ -186,7 +188,7 @@ namespace GraysInvaders
                         shooter = new Shoot(Game, ref shoot,
                             new Vector2(position.X + frameSize.X / 2, position.Y - SHOOTSIZE), 1);
                         Game.Components.Add(shooter);
-                        pum.Play(.5f,0f,0f);
+                        shootEffect.Play();
                         //}
                         #endregion
 

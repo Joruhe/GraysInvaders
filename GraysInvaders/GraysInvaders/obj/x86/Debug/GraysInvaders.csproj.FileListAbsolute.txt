@@ -100,3 +100,4 @@ C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\
 C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\pig.xnb
 C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\HOU.xnb
 C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\HOU1.xnb
+C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\duck.xnb

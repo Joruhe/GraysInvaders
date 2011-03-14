@@ -41,7 +41,8 @@ namespace GraysInvaders
 
 
         // Audio stuff
-        private SoundEffect move;
+        private SoundEffectInstance moveEffect;
+        private SoundEffect SoundEffectMove;
 
         public InvasorsManager(Game game, ref Texture2D texture, string difficult)
             : base(game)
@@ -62,7 +63,8 @@ namespace GraysInvaders
             // TODO: Add your initialization code here
 
             // Load audio elements
-            move = Game.Content.Load<SoundEffect>(@"music\hou1");
+            SoundEffectMove = Game.Content.Load<SoundEffect>(@"music\duck");
+            moveEffect = SoundEffectMove.CreateInstance();
             base.Initialize();
         }
 
@@ -125,7 +127,7 @@ namespace GraysInvaders
 
             if (timeForSoundMove == 0)
             {
-                move.Play(.5f,0f,0f);
+                moveEffect.Play();
             }
 
             #region ASIGNATION LAST POSITION

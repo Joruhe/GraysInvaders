@@ -326,6 +326,15 @@
       <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\HOU1.xnb</Output>
       <Time>2011-03-13T15:07:22.7877063+01:00</Time>
     </Item>
+    <Item>
+      <Source>music\duck.wav</Source>
+      <Name>music\duck</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joruhe\Dropbox\Projects\Visual Studio 2010\GraysInvaders\GraysInvaders\GraysInvaders\bin\x86\Debug\Content\music\duck.xnb</Output>
+      <Time>2011-03-14T05:35:15.1870772+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

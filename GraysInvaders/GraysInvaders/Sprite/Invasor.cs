@@ -30,7 +30,8 @@ namespace GraysInvaders
         #endregion
 
         // Audio stuff
-        private SoundEffect pum;
+        private SoundEffectInstance shootEffect;
+        private SoundEffect SoundEffectShoot;
         #endregion
 
         #region STATES
@@ -162,7 +163,8 @@ namespace GraysInvaders
             // TODO: Add your initialization code here
 
             // Load audio elements
-            pum = Game.Content.Load<SoundEffect>(@"music\duck1");
+            SoundEffectShoot = Game.Content.Load<SoundEffect>(@"music\duck1");
+            shootEffect = SoundEffectShoot.CreateInstance();
             base.Initialize();
         }
 
@@ -234,7 +236,7 @@ namespace GraysInvaders
                                         position.Y + SHOOTSIZE + frameSize.Y), -1);
                                 Game.Components.Add(shooter);
 
-                                pum.Play();
+                                shootEffect.Play();
                             }
                         }
                     }
